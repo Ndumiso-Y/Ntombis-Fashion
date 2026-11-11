@@ -1,404 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ntombis Fashion - Make Your Fashion Look More Charming</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'pink-soft': '#fce4ec',
-                        'pink-medium': '#f8bbd9',
-                        'pink-accent': '#f48fb1'
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        .hero-gradient {
-            background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 50%, #f48fb1 100%);
-        }
-        .text-shadow {
-            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ntombis Fashion | Shweshwe &amp; Ankara Fashion, Bespoke Matric Dance &amp; Wedding Wear</title>
+  <meta name="description" content="Ntombis Fashion (NTB Fashions) is a South African fashion brand making shweshwe and Ankara ready-to-wear, accessories, and bespoke outfits for matric dances, weddings and cultural ceremonies. Book a consultation on WhatsApp.">
+  <link rel="canonical" href="https://ndumiso-y.github.io/Ntombis-Fashion/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#1a1410">
+  <meta name="google-site-verification" content="{{GSC_TOKEN}}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ntombis Fashion">
+  <meta property="og:locale" content="en_ZA">
+  <meta property="og:title" content="Ntombis Fashion | African-inspired fashion, made in South Africa">
+  <meta property="og:description" content="Shweshwe and Ankara ready-to-wear, accessories, and bespoke outfits for matric dances, weddings and ceremonies.">
+  <meta property="og:url" content="https://ndumiso-y.github.io/Ntombis-Fashion/">
+  <meta property="og:image" content="https://ndumiso-y.github.io/Ntombis-Fashion/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{GA_ID}}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{GA_ID}}');
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "@id": "https://ndumiso-y.github.io/Ntombis-Fashion/#business",
+    "name": "Ntombis Fashion",
+    "alternateName": "NTB Fashions",
+    "description": "South African fashion brand making shweshwe and Ankara ready-to-wear, accessories, and bespoke outfits for matric dances, weddings and cultural ceremonies.",
+    "url": "https://ndumiso-y.github.io/Ntombis-Fashion/",
+    "logo": "https://ndumiso-y.github.io/Ntombis-Fashion/favicon.svg",
+    "image": "https://ndumiso-y.github.io/Ntombis-Fashion/images/og-image.jpg",
+    "telephone": "{{PHONE_INTL}}",
+    "email": "{{EMAIL}}",
+    "priceRange": "R",
+    "currenciesAccepted": "ZAR",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{STREET}}",
+      "addressLocality": "{{CITY}}",
+      "addressRegion": "{{PROVINCE}}",
+      "postalCode": "{{POSTCODE}}",
+      "addressCountry": "ZA"
+    },
+    "openingHours": "{{HOURS_SCHEMA}}",
+    "areaServed": "South Africa",
+    "knowsAbout": ["Shweshwe", "Ankara", "Bespoke tailoring", "Matric dance dresses", "Wedding attire", "Traditional ceremony outfits"],
+    "sameAs": [
+      "{{INSTAGRAM_URL}}",
+      "{{FACEBOOK_URL}}",
+      "{{TIKTOK_URL}}"
+    ]
+  }
+  </script>
 </head>
-<body class="font-sans">
-    <!-- Header -->
-    <header class="w-full">
-        <!-- Top banner -->
-        <div class="bg-black text-white text-center py-2 px-4 text-sm">
-            Free shipping on orders over $300! Shop now and enjoy stylish fashion delivered straight to your doorstep at no extra cost.
-        </div>
-        
-        <!-- Main header -->
-        <div class="bg-white shadow-sm">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between items-center py-4">
-                    <nav class="hidden md:flex space-x-8">
-                        <a href="#" class="text-gray-700 hover:text-black font-medium">Product</a>
-                        <a href="#" class="text-gray-700 hover:text-black font-medium">Blogs</a>
-                        <a href="#" class="text-gray-700 hover:text-black font-medium">Contact Us</a>
-                    </nav>
-                    
-                    <div class="flex items-center space-x-2">
-                        <div class="bg-black rounded-full p-2">
-                            <div class="w-6 h-6 bg-white"></div>
-                        </div>
-                        <h1 class="text-2xl font-bold text-black">NTOMBIS FASHION</h1>
-                    </div>
-                    
-                    <div class="flex items-center space-x-4">
-                        <svg class="w-5 h-5 text-gray-600 hover:text-black cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m21 21-6-6m2-5a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-gray-600 hover:text-black cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5L12 21l7.5-3L17 13M7 13v6a2 2 0 002 2h6a2 2 0 002-2v-6"></path>
-                        </svg>
-                        <svg class="w-5 h-5 text-gray-600 hover:text-black cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
 
-    <!-- Hero Section -->
-    <section class="hero-gradient min-h-screen flex items-center relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div class="space-y-8">
-                    <div class="space-y-4">
-                        <p class="text-gray-700 text-lg leading-relaxed max-w-md">
-                            Online fashion marketplaces are platforms that connect buyers and sellers of clothing, accessories and other fashion-related products.
-                        </p>
-                    </div>
-                    
-                    <div class="relative">
-                        <div class="absolute -top-4 -left-4">
-                            <svg class="w-8 h-8 text-black opacity-60" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
-                            </svg>
-                        </div>
-                        <h1 class="text-6xl lg:text-8xl font-black text-black leading-none text-shadow">
-                            MAKE YOUR FASHION
-                            <br />
-                            <span class="relative">
-                                LOOK 
-                                <div class="absolute top-0 right-0 transform translate-x-8 -translate-y-4">
-                                    <div class="w-12 h-12 bg-black transform rotate-45"></div>
-                                </div>
-                            </span>
-                            <br />
-                            <span class="bg-black text-white px-4 py-2 inline-block transform -skew-x-12">
-                                MIRE CHARMING
-                            </span>
-                        </h1>
-                    </div>
-                </div>
-                
-                <div class="relative">
-                    <div class="bg-white rounded-lg shadow-2xl overflow-hidden">
-                        <div class="aspect-[4/5] bg-gradient-to-br from-red-300 to-red-500 relative">
-                            <div class="absolute inset-0 flex items-center justify-center">
-                                <div class="text-white text-center">
-                                    <div class="text-sm opacity-80 mb-4">#outfitoftheday</div>
-                                    <h3 class="text-3xl font-bold mb-2">BUNCH BEACH PARTY</h3>
-                                    <h3 class="text-3xl font-bold mb-6">COLLECTIONS</h3>
-                                    <button class="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-100 flex items-center mx-auto space-x-2">
-                                        <span>Shop Now</span>
-                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <button class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:shadow-xl">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                        </svg>
-                    </button>
-                    <button class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-3 shadow-lg hover:shadow-xl">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a href="./" class="brand" aria-label="Ntombis Fashion home">
+        <span class="monogram" aria-hidden="true">NTB</span>
+        <span class="wordmark">Ntombis Fashion</span>
+      </a>
+      <nav aria-label="Main">
+        <a href="#shop">Shop</a>
+        <a href="#bespoke">Bespoke</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-        <!-- Product Grid -->
-        <div class="absolute top-1/4 right-8 hidden lg:block">
-            <div class="bg-white p-6 rounded-lg shadow-lg max-w-md">
-                <div class="grid grid-cols-2 gap-4 mb-6">
-                    <div class="group cursor-pointer">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-orange-200 to-orange-400 rounded-lg mb-2 relative overflow-hidden">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-200"></div>
-                        </div>
-                        <div class="text-xs space-y-1">
-                            <div class="font-semibold text-gray-800">T-SHIRT</div>
-                            <div class="text-gray-600">$80</div>
-                            <div class="text-gray-500 text-[10px]">BLACK LONGSLEEVE</div>
-                        </div>
-                    </div>
-                    <div class="group cursor-pointer">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-blue-200 to-blue-400 rounded-lg mb-2 relative overflow-hidden">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-200"></div>
-                        </div>
-                        <div class="text-xs space-y-1">
-                            <div class="font-semibold text-gray-800">JACKET</div>
-                            <div class="text-gray-600">$100</div>
-                            <div class="text-gray-500 text-[10px]">BLUE STRIPED JACKET</div>
-                        </div>
-                    </div>
-                    <div class="group cursor-pointer">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-gray-200 to-gray-400 rounded-lg mb-2 relative overflow-hidden">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-200"></div>
-                        </div>
-                        <div class="text-xs space-y-1">
-                            <div class="font-semibold text-gray-800">JACKET</div>
-                            <div class="text-gray-600">$45</div>
-                            <div class="text-gray-500 text-[10px]">GREY JACKET</div>
-                        </div>
-                    </div>
-                    <div class="group cursor-pointer">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-green-200 to-green-400 rounded-lg mb-2 relative overflow-hidden">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-200"></div>
-                        </div>
-                        <div class="text-xs space-y-1">
-                            <div class="font-semibold text-gray-800">LONGSLEEVE</div>
-                            <div class="text-gray-600">$60</div>
-                        </div>
-                    </div>
-                    <div class="group cursor-pointer">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-purple-200 to-purple-400 rounded-lg mb-2 relative overflow-hidden">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-200"></div>
-                        </div>
-                        <div class="text-xs space-y-1">
-                            <div class="font-semibold text-gray-800">SHIRT</div>
-                            <div class="text-gray-600">$90</div>
-                            <div class="text-gray-500 text-[10px]">BLACK POLKA SHIRT</div>
-                        </div>
-                    </div>
-                    <div class="group cursor-pointer">
-                        <div class="aspect-[3/4] bg-gradient-to-br from-teal-200 to-teal-400 rounded-lg mb-2 relative overflow-hidden">
-                            <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-200"></div>
-                        </div>
-                        <div class="text-xs space-y-1">
-                            <div class="font-semibold text-gray-800">JACKET</div>
-                            <div class="text-gray-600">$100</div>
-                            <div class="text-gray-500 text-[10px]">GREEN FULL JACKET</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <button class="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 py-2 px-4 rounded-lg font-medium transition-colors">
-                    More Collections →
-                </button>
-            </div>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Made in South Africa</p>
+          <h1>African heritage, tailored for your moment.</h1>
+          <p class="lede">Ntombis Fashion makes shweshwe and Ankara ready-to-wear, accessories, and bespoke outfits for matric dances, weddings and cultural ceremonies.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#shop">Shop the launch range</a>
+            <a class="btn btn-ghost" href="https://wa.me/{{WHATSAPP_DIGITS}}?text=Hi%20Ntombis%20Fashion%2C%20I%27d%20like%20to%20book%20a%20consultation">Book a consultation</a>
+          </div>
         </div>
+        <div class="hero-art" role="img" aria-label="Shweshwe-inspired geometric pattern"></div>
+      </div>
     </section>
 
-    <!-- Category Navigation -->
-    <nav class="bg-black text-white py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-wrap justify-center items-center space-x-1 md:space-x-8">
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">CAP</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">TROUSER</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">SHORTS</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">SHOES</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">SOCK</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">JACKET</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">HOODIE</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">GLASSES</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">BAG</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">JEANS</a>
-                    <span class="text-gray-500 mx-2 md:mx-4 hidden md:inline">+</span>
-                </div>
-                <div class="flex items-center">
-                    <a href="#" class="text-white hover:text-gray-300 font-medium text-sm md:text-base py-2 px-2 md:px-0 transition-colors">WATCH</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Featured Collections -->
-    <section class="bg-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center mb-8">
-                <h2 class="text-3xl font-bold text-black">FEATURED COLLECTION</h2>
-                <button class="flex items-center space-x-2 text-gray-600 hover:text-black">
-                    <span>See All</span>
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                    </svg>
-                </button>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="group cursor-pointer">
-                    <div class="aspect-[4/5] bg-gradient-to-br from-green-600 to-green-800 rounded-lg relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                        <div class="absolute bottom-6 left-6 text-white">
-                            <h3 class="text-2xl font-bold mb-1">TO THE WOODS</h3>
-                            <p class="text-sm opacity-80 mb-4">Rustic & Natural</p>
-                            <button class="bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 flex items-center space-x-2">
-                                <span>Shop Now</span>
-                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="group cursor-pointer">
-                    <div class="aspect-[4/5] bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                        <div class="absolute bottom-6 left-6 text-white">
-                            <h3 class="text-2xl font-bold mb-1">TRAVEL ESSENTIALS</h3>
-                            <p class="text-sm opacity-80 mb-4">Comfort & Style</p>
-                            <button class="bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 flex items-center space-x-2">
-                                <span>Shop Now</span>
-                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="group cursor-pointer">
-                    <div class="aspect-[4/5] bg-gradient-to-br from-orange-600 to-orange-800 rounded-lg relative overflow-hidden">
-                        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-                        <div class="absolute bottom-6 left-6 text-white">
-                            <h3 class="text-2xl font-bold mb-1">COZY ANYWHERE</h3>
-                            <p class="text-sm opacity-80 mb-4">Home & Lounge</p>
-                            <button class="bg-white text-black px-4 py-2 rounded-full text-sm font-medium hover:bg-gray-100 flex items-center space-x-2">
-                                <span>Shop Now</span>
-                                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                                </svg>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="text-center mt-8">
-                <button class="bg-gray-100 hover:bg-gray-200 text-gray-700 px-6 py-3 rounded-lg font-medium">
-                    Discover All Collections
-                </button>
-            </div>
-            
-            <div class="mt-16 bg-gradient-to-r from-gray-800 to-black rounded-2xl p-8 text-white relative overflow-hidden">
-                <div class="relative z-10">
-                    <h2 class="text-4xl font-bold mb-4">UNLOCK THE SECRET TO</h2>
-                    <h2 class="text-4xl font-bold mb-6">EFFORTLESS STYLE</h2>
-                    <p class="text-gray-300 mb-6 max-w-md">
-                        Discover the perfect balance of comfort and elegance with our curated collection of premium fashion pieces.
-                    </p>
-                    <button class="bg-white text-black px-6 py-3 rounded-lg font-medium hover:bg-gray-100 flex items-center space-x-2">
-                        <span>Join Our Newsletter</span>
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                        </svg>
-                    </button>
-                </div>
-                <div class="absolute top-0 right-0 w-64 h-64 bg-white bg-opacity-5 rounded-full -mr-32 -mt-32"></div>
-            </div>
-        </div>
+    <section class="paths wrap" aria-label="Two ways to shop">
+      <article class="path">
+        <h2>Ready-to-wear</h2>
+        <p>Doeks, wrap skirts, kimono jackets, bags and hats in shweshwe and Ankara prints, ready to order.</p>
+        <a href="#shop">See the range &rarr;</a>
+      </article>
+      <article class="path">
+        <h2>Bespoke</h2>
+        <p>One-of-one outfits for matric dances, weddings and traditional ceremonies, made to your measurements.</p>
+        <a href="#bespoke">How bespoke works &rarr;</a>
+      </article>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-black text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold mb-4">NTOMBIS FASHION</h3>
-                    <p class="text-gray-400 text-sm leading-relaxed">
-                        Redefining style with premium fashion pieces that blend comfort and elegance for the modern wardrobe.
-                    </p>
-                </div>
-                
-                <div>
-                    <h4 class="font-semibold mb-4">SHOP</h4>
-                    <ul class="space-y-2 text-gray-400 text-sm">
-                        <li><a href="#" class="hover:text-white">New Arrivals</a></li>
-                        <li><a href="#" class="hover:text-white">Clothing</a></li>
-                        <li><a href="#" class="hover:text-white">Accessories</a></li>
-                        <li><a href="#" class="hover:text-white">Sale</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="font-semibold mb-4">HELP</h4>
-                    <ul class="space-y-2 text-gray-400 text-sm">
-                        <li><a href="#" class="hover:text-white">Shipping & Returns</a></li>
-                        <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white">Size Guide</a></li>
-                        <li><a href="#" class="hover:text-white">Contact</a></li>
-                    </ul>
-                </div>
-                
-                <div>
-                    <h4 class="font-semibold mb-4">ABOUT</h4>
-                    <ul class="space-y-2 text-gray-400 text-sm">
-                        <li><a href="#" class="hover:text-white">Our Story</a></li>
-                        <li><a href="#" class="hover:text-white">Sustainability</a></li>
-                        <li><a href="#" class="hover:text-white">Careers</a></li>
-                        <li><a href="#" class="hover:text-white">Press</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-                <p class="text-gray-400 text-sm">
-                    © 2024 Ntombis Fashion. All rights reserved.
-                </p>
-                <div class="flex space-x-6 mt-4 md:mt-0">
-                    <a href="#" class="text-gray-400 hover:text-white text-sm">Instagram</a>
-                    <a href="#" class="text-gray-400 hover:text-white text-sm">Facebook</a>
-                    <a href="#" class="text-gray-400 hover:text-white text-sm">Twitter</a>
-                </div>
-            </div>
+    <section id="shop" class="section">
+      <div class="wrap">
+        <h2 class="section-title">The launch range</h2>
+        <p class="section-lede">Prices in South African Rand. Order on WhatsApp.</p>
+        <ul class="products">
+          <li class="product">
+            <img src="images/products/doek.jpg" alt="Ntombis Fashion shweshwe doek headwrap" width="600" height="750" loading="lazy">
+            <h3>Doek / headwrap</h3>
+            <p>Shweshwe and Ankara prints, tie it your way.</p>
+            <p class="price">{{PRICE_DOEK}}</p>
+          </li>
+          <li class="product">
+            <img src="images/products/wrap-skirt.jpg" alt="Ntombis Fashion Ankara wrap skirt" width="600" height="750" loading="lazy">
+            <h3>Wrap skirt</h3>
+            <p>Adjustable wrap fit in bold African prints.</p>
+            <p class="price">{{PRICE_WRAP_SKIRT}}</p>
+          </li>
+          <li class="product">
+            <img src="images/products/kimono.jpg" alt="Ntombis Fashion kimono duster jacket" width="600" height="750" loading="lazy">
+            <h3>Kimono / duster jacket</h3>
+            <p>A light layer that dresses up denim or a plain dress.</p>
+            <p class="price">{{PRICE_KIMONO}}</p>
+          </li>
+          <li class="product">
+            <img src="images/products/tote-clutch.jpg" alt="Ntombis Fashion shweshwe tote bag and clutch" width="600" height="750" loading="lazy">
+            <h3>Tote bag &amp; clutch</h3>
+            <p>Everyday tote and an evening clutch to match.</p>
+            <p class="price">{{PRICE_TOTE_CLUTCH}}</p>
+          </li>
+          <li class="product">
+            <img src="images/products/bucket-hat.jpg" alt="Ntombis Fashion Ankara bucket hat" width="600" height="750" loading="lazy">
+            <h3>Bucket hat</h3>
+            <p>African-print streetwear staple.</p>
+            <p class="price">{{PRICE_BUCKET_HAT}}</p>
+          </li>
+          <li class="product">
+            <img src="images/products/doek-earrings-set.jpg" alt="Doek and earrings gift set by Ntombis Fashion and Nolty Jewellers" width="600" height="750" loading="lazy">
+            <h3>Doek + earrings gift set</h3>
+            <p>Made with Nolty Jewellers.</p>
+            <p class="price">{{PRICE_GIFT_SET}}</p>
+          </li>
+        </ul>
+        <p class="center"><a class="btn btn-primary" href="https://wa.me/{{WHATSAPP_DIGITS}}?text=Hi%20Ntombis%20Fashion%2C%20I%27d%20like%20to%20order">Order on WhatsApp</a></p>
+      </div>
+    </section>
+
+    <section id="bespoke" class="section section-dark">
+      <div class="wrap two-col">
+        <div>
+          <h2 class="section-title">Bespoke, made for you</h2>
+          <p>Every bespoke piece is designed with you and cut to your measurements.</p>
+          <ul class="ticks">
+            <li>Matric dance dresses</li>
+            <li>Wedding attire for brides, grooms and bridal parties</li>
+            <li>Traditional and cultural ceremony outfits</li>
+            <li>Red-carpet and event glam</li>
+          </ul>
         </div>
-    </footer>
+        <ol class="steps">
+          <li><strong>Consult.</strong> Message us on WhatsApp with your occasion, date and ideas.</li>
+          <li><strong>Design &amp; quote.</strong> We agree the design, fabric and price.</li>
+          <li><strong>Measure &amp; fit.</strong> We take your measurements and do a fitting.</li>
+          <li><strong>Your day.</strong> Your finished outfit is ready before your event.</li>
+        </ol>
+      </div>
+      <p class="wrap center"><a class="btn btn-gold" href="https://wa.me/{{WHATSAPP_DIGITS}}?text=Hi%20Ntombis%20Fashion%2C%20I%27d%20like%20to%20book%20a%20bespoke%20consultation">Book a bespoke consultation</a></p>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap narrow">
+        <h2 class="section-title">About Ntombis Fashion</h2>
+        <p>{{ABOUT_TEXT}}</p>
+        <p>Ntombis Fashion, also known as NTB Fashions, blends modern style, African heritage and tailored craftsmanship. We work mostly in shweshwe and Ankara, and our jewellery comes from our partner, Nolty Jewellers.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="section section-soft">
+      <div class="wrap narrow">
+        <h2 class="section-title">Questions</h2>
+        <details>
+          <summary>Where is Ntombis Fashion based?</summary>
+          <p>We're in {{CITY}}, {{PROVINCE}}, South Africa. See our address and hours below.</p>
+        </details>
+        <details>
+          <summary>How do I order?</summary>
+          <p>Send us a WhatsApp message on {{PHONE_DISPLAY}} with the item and size you'd like. We'll confirm the price, payment and delivery.</p>
+        </details>
+        <details>
+          <summary>Do you deliver?</summary>
+          <p>{{DELIVERY_TEXT}}</p>
+        </details>
+        <details>
+          <summary>How far ahead should I book a bespoke outfit?</summary>
+          <p>{{BESPOKE_LEADTIME_TEXT}}</p>
+        </details>
+        <details>
+          <summary>What fabrics do you use?</summary>
+          <p>Mostly South African shweshwe and Ankara prints. For bespoke and matric dance pieces, we choose the fabric with you at the consultation.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="wrap two-col">
+        <div>
+          <h2 class="section-title">Visit or contact us</h2>
+          <address>
+            <strong>Ntombis Fashion</strong><br>
+            {{STREET}}<br>
+            {{CITY}}, {{PROVINCE}}, {{POSTCODE}}<br>
+            South Africa
+          </address>
+          <p>
+            Phone / WhatsApp: <a href="tel:{{PHONE_INTL}}">{{PHONE_DISPLAY}}</a><br>
+            Email: <a href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+          </p>
+          <p><strong>Hours</strong><br>{{HOURS_DISPLAY}}</p>
+          <p><a class="btn btn-primary" href="https://wa.me/{{WHATSAPP_DIGITS}}">Chat on WhatsApp</a></p>
+        </div>
+        <div>
+          <a class="map-link" href="{{GOOGLE_MAPS_URL}}">Find us on Google Maps &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-row">
+      <div>
+        <p class="wordmark">Ntombis Fashion</p>
+        <p>African-inspired fashion and bespoke tailoring, made in South Africa.</p>
+      </div>
+      <nav aria-label="Social media">
+        <a href="{{INSTAGRAM_URL}}" rel="me">Instagram</a>
+        <a href="{{FACEBOOK_URL}}" rel="me">Facebook</a>
+        <a href="{{TIKTOK_URL}}" rel="me">TikTok</a>
+      </nav>
+    </div>
+    <p class="wrap copyright">&copy; <span id="year">2026</span> Ntombis Fashion. All rights reserved.</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Until real photos are added, show the brand pattern instead of a broken image.
+    document.querySelectorAll('.product img').forEach(function (img) {
+      function fallback() { img.onerror = null; img.src = 'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='; }
+      if (img.complete && img.naturalWidth === 0) fallback(); else img.onerror = fallback;
+    });
+  </script>
 </body>
 </html>

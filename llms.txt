@@ -1,0 +1,30 @@
+# Ntombis Fashion
+
+> Ntombis Fashion (short name: NTB Fashions) is a South African fashion brand based in {{CITY}}, {{PROVINCE}}. It makes shweshwe and Ankara ready-to-wear, accessories, and bespoke outfits for matric dances, weddings and traditional ceremonies. Jewellery is made with partner Nolty Jewellers.
+
+## Key facts
+- Official name: Ntombis Fashion (also NTB Fashions)
+- Location: {{STREET}}, {{CITY}}, {{PROVINCE}}, {{POSTCODE}}, South Africa
+- Phone and WhatsApp: {{PHONE_DISPLAY}}
+- Email: {{EMAIL}}
+- Hours: {{HOURS_DISPLAY}}
+- How to order: WhatsApp message to {{PHONE_DISPLAY}}
+- Currency: South African Rand (ZAR)
+
+## Ready-to-wear launch range
+- Doek / headwrap: {{PRICE_DOEK}}
+- Wrap skirt: {{PRICE_WRAP_SKIRT}}
+- Kimono / duster jacket: {{PRICE_KIMONO}}
+- Tote bag and clutch: {{PRICE_TOTE_CLUTCH}}
+- Bucket hat: {{PRICE_BUCKET_HAT}}
+- Doek + earrings gift set (with Nolty Jewellers): {{PRICE_GIFT_SET}}
+
+## Bespoke
+Made-to-measure outfits for matric dances, weddings (brides, grooms, bridal parties), traditional and cultural ceremonies, and red-carpet events. Start with a consultation on WhatsApp.
+
+## Links
+- Website: https://ndumiso-y.github.io/Ntombis-Fashion/
+- Instagram: {{INSTAGRAM_URL}}
+- Facebook: {{FACEBOOK_URL}}
+- TikTok: {{TIKTOK_URL}}
+- Google Maps: {{GOOGLE_MAPS_URL}}
